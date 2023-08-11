@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #042a3c;
+}
+.cartIcon{
+    background: yellow;
+    color: #333;
+    padding: 0 0.5rem 0 0.5rem;
+    border-radius: 50%;
+}
+.cart{
+    font-size: 3rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.nav-item{
+    padding-left: 2.5rem;
+    font-weight: 600;
+    margin-left: 5rem;
+    transition: all 0.5s ease-in-out;
+
+}
+.nav-item:hover{
+    font-weight: 700;
+}

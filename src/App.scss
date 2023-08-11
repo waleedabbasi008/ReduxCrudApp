@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+// ############################## Navbar styling ################################
+.nav{
+    position: fixed;
+}
+.navlinks{
+    margin-left: 25rem;
+    width: 25rem;
+}
+.navlinks a{
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:1200px) {
+    .navlinks{
+        margin-left: 35rem;
+        width: 25rem;
+    }
+    .navlinks a{
+        margin-left: 1.5rem;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .navlinks{
+        margin-left: 25rem;
+        width: 20rem;
+    }
+    .navlinks a{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .nav{ 
+        width: 40rem;
+        height: 10vh;
+        z-index: -1;
+        
+    }
+    .navlinks{
+        margin-left: 8rem;
+        display: block;
+        z-index: 3;
+        width: 10rem;
+    }
+    .navlinks a{
+        margin-left: 1rem;
+    }
+}
+// ##################### card styling ##################################
+.row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    
+}
+.row .card{
+    background: black;
+    border-radius: 25px;
+    color: antiquewhite;
+    transition: all 0.5s ease-in-out;
+    margin-left: 4rem;
+    cursor: cell;
+}
+.row .card:hover{
+    background: transparent;
+    color: black;
+}

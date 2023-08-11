@@ -1,0 +1,19 @@
+.createContainer{
+    width: 50%;
+}
+// ############################ Responsive ###################################
+@media screen and (max-width: 900px) {
+    .createContainer{
+        width: 75%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .createContainer{
+        width: 100%;
+    }
+    .createContainer input{
+        width: 100%;
+    }
+    
+}
